@@ -4,16 +4,17 @@ h2 {
 }
 
 .heading {
-    width: 960px;
+    width: 100%;
     display: inline-block;
-    margin: 0;
+    /* padding-left:; */
+    border-bottom: solid black;
 }
 
 #name {
     display: block;
     float: left;
+    margin-left: 10%;
     margin-top: 20px;
-    margin-left: 40px;
     margin-bottom: 0;
     background-color: darkred;
     padding: 20px;
@@ -22,9 +23,10 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 10%;
+    padding: 0px;
     width: 200px;
+    text-align: center;
 }
 
 li {
@@ -49,28 +51,42 @@ li a:hover {
     float: right;
     display: inline-block;
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 35px;
     padding: 0;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: lightgrey;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .main-body {
     width: 960px;
     background-color: lightgrey;
     padding: 10px;
-    box-shadow: 20px 20px 50px grey;
-    margin: 0;
+    box-shadow: 10px 10px 25px grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .about-me {
     padding: 20px;
-    border-bottom: solid .5px;
+    border-bottom: solid .5px grey;
     margin-bottom: 40px;
     margin-left: 10px;
+    color: darkred;
+}
+
+footer {
+    width: 100%;
+    border-top: solid black;
+}
+
+.social {
+    /* margin-left: %;
+    margin-right: 50%; */
+    display: inline;
+    width: 100%;
 }
