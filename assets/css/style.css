@@ -10,6 +10,7 @@ h2 {
     width: 100%;
     display: inline-block;
     border-bottom: solid darkred;
+    margin-bottom: 20px;
 }
 
 #name {
@@ -23,7 +24,7 @@ h2 {
     color: white;
 }
 
-ul {
+.main-nav ul {
     list-style-type: none;
     margin-right: 10%;
     padding: 0px;
@@ -31,12 +32,12 @@ ul {
     text-align: center;
 }
 
-li {
+.main-nav li {
     display: inline;
     text-align: center;
 }
 
-li a {
+.main-nav li a {
     display: inline;
     color: #000;
     text-decoration: none;
@@ -44,7 +45,7 @@ li a {
     margin: 1px;
 }
 
-li a:hover {
+.main-nav li a:hover {
     background-color: #555;
     color: white;
 }
@@ -109,21 +110,25 @@ body {
     float: right;
     width: 650px;
     margin-right: 10px;
-    word-spacing: 1px;
+    line-height: 3em;
     overflow: auto;
     padding: 10px;
 }
 
 .second-paragraph {
     float: left;
-    width: 960px;
+    width: 940px;
+    margin-left: 25px;
+    line-height: 3em;
     word-spacing: 1px;
     overflow: auto;
 }
 
 .third-paragraph {
     float: left;
-    width: 960px;
+    width: 940px;
+    margin-left: 25px;
+    line-height: 3em;
     word-spacing: 1px;
 }
 
@@ -141,12 +146,61 @@ footer {
 }
 
 .social {
-    display: inline;
-    width: 400px;
+    display: inline-block;
+    list-style-type: none;
+    width: auto;
+    height: 200px;
+    margin-right: 40%;
+    margin-top: 30px;
+    padding: 0;
+    float: right;
+}
+
+.social ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    border: solid black;
+    overflow: hidden;
+}
+
+.social li {
+    float: left;
+    margin-left: 10px;
+}
+
+.social li a {
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #597ab6;
+    color: white;
 }
 
 
-/* end of footer */
+/* end of footer *
