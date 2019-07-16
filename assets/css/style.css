@@ -107,6 +107,17 @@ body {
     overflow: auto;
 } */
 
+.img-wrapper {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: 25px;
+}
+
+.img-margin {
+    margin-left: 25px;
+}
+
 .my-image {
     margin-left: 30px;
     margin-bottom: 20px;
