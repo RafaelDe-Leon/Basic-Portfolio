@@ -65,12 +65,14 @@ body {
     background-color: lightgrey;
     padding: 10px;
     box-shadow: 10px 10px 25px grey;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 0 auto;
     overflow: hidden;
 }
+
+
+/* .clearfix {
+    overflow: auto;
+} */
 
 .my-image {
     margin-left: 30px;
@@ -90,18 +92,33 @@ body {
 .main-paragraph {
     float: right;
     width: 650px;
-    margin-right: 30px;
+    margin-right: 10px;
+    word-spacing: 1px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.second-paragraph {
+    float: left;
+    width: 960px;
+    word-spacing: 1px;
+    overflow: auto;
+}
+
+.third-paragraph {
+    float: left;
+    width: 960px;
     word-spacing: 1px;
 }
 
 footer {
     width: 100%;
     border-top: solid black;
+    margin-top: 30px;
+    display: inline-block;
 }
 
 .social ul {
-    /* margin-left: %;
-    margin-right: 50%; */
     display: inline;
     width: 40px;
 }
