@@ -6,12 +6,10 @@ body {
     background-color: lightgrey;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
-
-
 
 /* top nav */
 
@@ -21,7 +19,6 @@ h2 {
     border-bottom: solid darkred;
     margin-bottom: 20px;
 }
-
 
 /* link text decloration none */
 
@@ -33,7 +30,7 @@ a {
 #name {
     display: block;
     float: left;
-    margin-left: 250px;
+    margin-left: 340px;
     margin-top: 20px;
     margin-bottom: 0;
     background-color: darkred;
@@ -79,7 +76,7 @@ a {
     list-style-type: none;
     width: auto;
     margin-top: 35px;
-    margin-right: 250px;
+    margin-right: 340px;
     padding: 0;
 }
 
@@ -89,11 +86,7 @@ a {
     padding: 0;
 }
 
-
 /* end of top nav */
-
-
-
 
 /* start of main body */
 
@@ -105,34 +98,69 @@ a {
     width: 960px;
     min-height: 500px;
     background-color: lightgrey;
-    padding: 10px 10px 150px 10px;
+    padding: 10px 0px 150px 0px;
     box-shadow: 10px 10px 25px grey;
-    margin: 0px 250px 25px 250px;
+    margin-left: 340px;
+    margin-top: 20px;
     overflow: auto;
     display: inline-block;
 }
-
 
 /* .clearfix {
     overflow: auto;
 } */
 
+/* portfolio css img */
+
 .img-wrapper {
-    width: auto;
-    height: auto;
-    display: block;
-    margin-left: 25px;
+    min-width: 200px;
+    min-height: 200px;
+    display: inline-block;
+    margin: 25px;
 }
 
-.img-margin {
-    margin-left: 25px;
+.wrapper img {
+    max-width: 200px;
+    height: auto;
 }
+
+.img-container {
+    display: inline-block;
+}
+
+.img-relative {
+    position: relative;
+    display: inline-block;
+
+}
+.img-property {
+    margin: 40px 50px;
+    display: inline-block;
+    width: 200px;
+    max-height: 200px;
+    /* object-fit: scale-down; */
+    /* overflow: auto; */
+}
+
+.p-image-text {
+    position: absolute; 
+    top: 185px; 
+    left: 50px;
+    text-align: center;
+    width: 300px; 
+    background: #007bb5;
+    z-index: 1;
+}
+
+/* main-image index */
 
 .my-image {
     margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 5px;
     padding: 1px;
+    width: auto;
+    height: auto;
 }
 
 .about-me {
@@ -146,27 +174,34 @@ a {
 .main-paragraph {
     float: right;
     width: 650px;
-    margin-right: 10px;
+    margin-right: 11px;
     line-height: 3em;
     overflow: auto;
     padding: 10px;
+    /* border: solid black; */
 }
 
 .second-paragraph {
     float: left;
-    width: 940px;
+    width: 920px;
     margin-left: 25px;
     line-height: 3em;
     word-spacing: 1px;
     overflow: auto;
+    /* border: solid black; */
 }
 
 .third-paragraph {
     float: left;
-    width: 940px;
+    width: 920px;
     margin-left: 25px;
+    margin-top: 5px;
     line-height: 3em;
     word-spacing: 1px;
+    /* border: solid black; */
+}
+#form-container {
+    margin-left: 40px;
 }
 
 .main-form {
@@ -175,7 +210,6 @@ a {
     padding-top: 0;
     margin-top: 0;
     margin-left: 3px;
-    
     box-sizing: border-box;
     display: inline-block;
 }
@@ -187,22 +221,25 @@ a {
     margin-top: 10px;
 }
 
+
+
 #message-box {
-    height: 60px;
-    width: 800px;
-    border: solid red;
+    max-height: 300px;
+    min-height: 100px;
+    max-width: 800px;
+    min-width: 800px;
+    /* border: solid red; */
 }
-#message-box-form {
-    width: 800px;
-    min-height: 200px;
-    max-width: 300px;
-    height: 300px;
-    overflow: auto;
+#submit {
+    background-color: darkred;
+    color: white;
 }
 
+/* #message-box {
+    
+} */
 
 /* end of main body  */
-
 
 /* start of footer  */
 
@@ -211,7 +248,7 @@ a {
     min-height: 10px;
     background-color: lightgray;
     border-top: solid darkred 6px;
-    margin-top: -5px;
+    margin-top: 30px;
     position: relative;
     display: inline-block;
     clear: both;
@@ -273,6 +310,5 @@ a {
     background: #597ab6;
     color: white;
 }
-
 
 /* end of footer *
