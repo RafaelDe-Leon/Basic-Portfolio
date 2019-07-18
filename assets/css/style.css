@@ -124,7 +124,7 @@ a {
     min-width: 200px;
     min-height: 200px;
     display: inline-block;
-    margin: 25px;
+    margin: 25px 25px 25px -10px;
 }
 
 .wrapper img {
@@ -142,10 +142,10 @@ a {
 }
 
 .img-property {
-    margin: 40px 50px;
+    margin: 40px 35px;
     display: inline-block;
-    width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: auto;
     /* object-fit: scale-down; */
     /* overflow: auto; */
 }
@@ -153,10 +153,12 @@ a {
 .p-image-text {
     position: absolute;
     top: 185px;
-    left: 50px;
+    left: 35px;
+    padding: 10px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     width: 300px;
-    background: #007bb5;
+    background: rgb(221, 4, 4);
     z-index: 1;
 }
 
@@ -175,7 +177,7 @@ a {
     padding: 20px;
     border-bottom: solid .5px grey;
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-right: 30px;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
