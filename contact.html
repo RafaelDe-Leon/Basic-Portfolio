@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>
@@ -12,6 +13,7 @@
 </head>
 
 <body>
+    <div id="container">
     <!-- main border top -->
     <section class="heading">
         <h1 id="name"><a href="index.html" target="index.html">Rafael De Leon</a></h1>
@@ -24,14 +26,41 @@
             <li class="top-nav"><a href="contact.html">Contact</a></li>
         </ul>
     </section>
-
-    <div class="main-body">
+     <!-- form section -->
+    <section>
+    <div id="main-body">
         <h2 class="about-me">
             Contact
         </h2>
+       
 
-    </div>
-    <footer>
+        <form>
+            <div class="name-form">
+                <label for="fname">Name</label>
+            </div>
+            <div>
+                <input type="text" class="main-form">
+            </div>
+                <div class="name-form">
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="text" class="main-form">
+                </div>
+            
+            <div class="name-form">
+                <label for="message">Message</label>
+            </div>
+            <div id="message-box">
+                <input type="text" id="message-box-form">
+            </div>
+            </div>
+        </form>
+    </section>
+</div>
+<!-- end of form section -->
+<!-- begins footer -->
+    <footer id="footer">
 
         <div class="social">
             <ul>
