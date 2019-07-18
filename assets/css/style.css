@@ -42,8 +42,8 @@ a {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    -webkit-transition: .1s ease-in;
-    transition: .3s ease;
+    -webkit-transition: 1s ease-in;
+    transition: 1s ease;
 }
 
 #name:hover {
@@ -278,7 +278,7 @@ a {
     min-height: 10px;
     background-color: lightgray;
     border-top: solid darkred 6px;
-    margin-top: 30px;
+    margin-top: 40px;
     position: relative;
     display: inline-block;
     clear: both;
@@ -288,9 +288,9 @@ a {
     display: inline-block;
     list-style-type: none;
     width: auto;
-    height: 200px;
+    height: 75px;
     margin-right: 40%;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0;
     float: right;
 }
